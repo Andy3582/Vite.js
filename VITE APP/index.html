@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+
+
+    <script type="module"  src="/src/index.tsx"    ></script>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+   
+   
+     window.SnipcartSettings = {
+         publicApiKey: 'YjJmZWRiNTctNjA4NC00OWY3LTgzOWYtMjU1MmFmYjVkMmI4NjM3OTMyNDg0MDI3ODgwNDU1',
+         loadStrategy: 'on-user-interaction',
+         modalStyle: "side",
+         
+     };
+ 
+     (()=>{var a,d;(d=(a=window.SnipcartSettings).version)!=null||(a.version="3.0");var s,S;(S=(s=window.SnipcartSettings).currency)!=null||(s.currency="usd");var l,p;(p=(l=window.SnipcartSettings).timeoutDuration)!=null||(l.timeoutDuration=2750);var w,u;(u=(w=window.SnipcartSettings).domain)!=null||(w.domain="cdn.snipcart.com");var m,g;(g=(m=window.SnipcartSettings).protocol)!=null||(m.protocol="https");var y=window.SnipcartSettings.version.includes("v3.0.0-ci")||window.SnipcartSettings.version!="3.0"&&window.SnipcartSettings.version.localeCompare("3.4.0",void 0,{numeric:!0,sensitivity:"base"})===-1,f=["focus","mouseover","touchmove","scroll","keydown"];window.LoadSnipcart=o;document.readyState==="loading"?document.addEventListener("DOMContentLoaded",r):r();function r(){window.SnipcartSettings.loadStrategy?window.SnipcartSettings.loadStrategy==="on-user-interaction"&&(f.forEach(t=>document.addEventListener(t,o)),setTimeout(o,window.SnipcartSettings.timeoutDuration)):o()}var c=!1;function o(){if(c)return;c=!0;let t=document.getElementsByTagName("head")[0],e=document.querySelector("#snipcart"),i=document.querySelector(`src[src^="${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}"][src$="snipcart.js"]`),n=document.querySelector(`link[href^="${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}"][href$="snipcart.css"]`);e||(e=document.createElement("div"),e.id="snipcart",e.setAttribute("hidden","true"),document.body.appendChild(e)),h(e),i||(i=document.createElement("script"),i.src=`${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}/themes/v${window.SnipcartSettings.version}/default/snipcart.js`,i.async=!0,t.appendChild(i)),n||(n=document.createElement("link"),n.rel="stylesheet",n.type="text/css",n.href=`${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}/themes/v${window.SnipcartSettings.version}/default/snipcart.css`,t.prepend(n)),f.forEach(v=>document.removeEventListener(v,o))}function h(t){!y||(t.dataset.apiKey=window.SnipcartSettings.publicApiKey,window.SnipcartSettings.addProductBehavior&&(t.dataset.configAddProductBehavior=window.SnipcartSettings.addProductBehavior),window.SnipcartSettings.modalStyle&&(t.dataset.configModalStyle=window.SnipcartSettings.modalStyle),window.SnipcartSettings.currency&&(t.dataset.currency=window.SnipcartSettings.currency),window.SnipcartSettings.templatesUrl&&(t.dataset.templatesUrl=window.SnipcartSettings.templatesUrl))}})();
+ </script>
+
+
+
+
+
+
+
+
+    
+    <button class="snipcart-add-item"
+    data-item-id="ICELAND TOUR"
+    data-item-price="999.99"
+    data-item-description="The price includes 7 nights in a hotel and flight ticket"
+    data-item-image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUytgnyyo1-BKSX7RmMEe46WiT7LwvR2RTX0kyGQ3pKg&s"
+    data-item-name="ICELAND TOUR">
+    BUY ICELAND TOUR NOW
+   
+  </button>
+  <div id="buy-now"></div>
+ 
+
+  <div id="navbar"></div> 
+    <div id="app"></div> 
+    <div id="button-readinfo"></div>
+
+   <div id="background-image"></div>
+   <div id="body" ></div>
+   
+
+   
+
+   
+   
+
+
+
+
+     <div class="aos-all">
+       <div class="up" data-aos="zoom-out"><div id="root"></div></div> 
+
+    <div id="blue-lagoon"></div>
+     <div class="down" data-aos="slide-down"><div  data-aos="slide-down"><h1 class="going-down" >BEGIN YOUR ADVENTURE!</h1></div></div>
+     <div class="down-2" data-aos="slide-right"><p class="explore-iceland">Explore Iceland</p></div>  
+     <div class="card-video" data-aos="slide-down"></div> 
+     <div  class="zoom-in" data-aos="slide-down"><div id="card-video"></div></div>
+     
+     <div id="video"></div>
+     
+     <div id="sales-cards"></div>
+     
+
+     </div>
+     
+
+    
+
+        <div id="box">
+        <div id="time-weather"></div>      
+         <div id="clock"></div>
+        <div id="ww_e8d84baff5b0f" v='1.20' loc='id' a='{"t":"horizontal","lang":"en","ids":["wl1643"],"cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"fahrenheit","sl_ics":"one_a","font":"Arial"}'>Weather Data Source: <a href="https://wetterlabs.de/wetter_reykjavík/woche/" id="ww_e8d84baff5b0f_u" target="_blank">wettervorhersage Reykjavík 7 tage</a></div><script async src="https://srv1.weatherwidget.org/js/?id=ww_e8d84baff5b0f"></script>
+        
+
+
+        <div id="best-time"></div>
+        </div>
+       
+        <div data-aos="slide-left"><h1 class="birdwatching">Icelandic Puffin and Birwatching</h1></div>
+        <div  data-aos="slide-right"><div id="bird"></div> </div>
+        <div id="bird-1"></div>
+        <div  data-aos="slide-left"  ><div id="bird-map" ></div></div>
+        <div id="bird-map-1" ></div>
+        
+
+        
+   <div id="caves-tours" data-aos="slide-left"></div>
+   <div id="caves-text"></div>
+
+    
+   <div id="alice-carousel"></div> 
+   <div id="caves-video"></div>
+    
+
+   
+   
+   
+   
+   
+   
+   
+   
+                         
+
+   
+
+                                                                                                                 
+ 
+                                                               
+
+    
+    
+
+   
+    
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+    
+   
+   
+   
+  
+  
+   
+   
+   
+      
+      
+      
+      
+      
+      
+      
+
+
+     
+   
+
+
+     
+
+   
+   
+   
+   
+
+ 
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   <div id="carousel-northern-lights"></div>
+   <div id="northern-logo"></div>
+   <div id="northern-cards"></div>
+   
+  
+   <div id="carousel"></div>   
+   <div id="buy-northern"></div>
+
+   <div id="business-northern"></div>
+
+   
+   
+   
+   
+   
+  
+  
+   <div id="contact-details"></div>
+  
+   
+ 
+   
+   <div id="form"></div>
+   <div id="social-media"></div>
+
+   <div id="background-footer">
+   <div id="top-button" ></div>
+   <div id="images"></div>
+   
+   <div id="way-to-pay-us"></div>
+ 
+   </div>
+
+
+  </body>
+</html>
